@@ -10,7 +10,7 @@ spec:
         app: price-search
     spec:
       containers:
-      - image: oblacki/price-search:261217v1
+      - image: oblacki/price-search:271217v1
         name: price-search
         env:
           - name: KUMULUZEE_DISCOVERY_CLUSTER
