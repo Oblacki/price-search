@@ -26,7 +26,7 @@ import org.eclipse.microprofile.faulttolerance.Timeout;
 @RequestScoped
 @Consumes(MediaType.APPLICATION_JSON)
 @Produces(MediaType.APPLICATION_JSON)
-@Path("price-search")
+@Path("/price-search")
 @Log
 public class PriceSearchResource {
 
